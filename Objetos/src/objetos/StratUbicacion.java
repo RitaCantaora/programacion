@@ -14,18 +14,18 @@ public class StratUbicacion {
 	ObjetoArqueologico espadaMedieval= new ObjetoArqueologico();
 	espadaMedieval.setNombre("espada de Williams Wallacer");
 	espadaMedieval.setMaterial("hierro");
-	espadaMedieval.setAnyo("1047");
+	espadaMedieval.setAnyo(1047);
 	espadaMedieval.setUbicacion(almacen);
-	System.out.println(espadaMedieval);
+	System.out.println("espadaMedieval"+espadaMedieval.toString());
 		
 		
 	ObjetoArqueologico ArmaduraMedieval= new ObjetoArqueologico();
 	 ArmaduraMedieval.setNombre("armadura");
 	 ArmaduraMedieval.setMaterial("hierro");
-	 ArmaduraMedieval.setAnyo("1500");
+	 ArmaduraMedieval.setAnyo(1500);
 	 ArmaduraMedieval.setUbicacion(almacen);
 	 
-	System.out.println ("ArmaduraMedieval");
+	System.out.println ("ArmaduraMedieval"+ArmaduraMedieval.toString());
 		
 	
 	Coleccion temporal= new Coleccion();

@@ -5,6 +5,7 @@ public class ObjetoArqueologico {
 	
 
 	//atributos
+	
 	private String nombre;
 	private String material;
 	private int anyo;
@@ -13,7 +14,7 @@ public class ObjetoArqueologico {
 	
 	
 
-	
+	//getters y setters 
 	
 	
 	public String getNombre() {
@@ -47,7 +48,8 @@ public class ObjetoArqueologico {
 	public void setUbicacion(ubicacion ubicacion) {
 		this.ubicacion = ubicacion;
 	}
-
+//to String
+	
 	@Override
 	public String toString() {
 		return "ObjetoArqueologico [nombre=" + nombre + ", material=" + material + ", anyo=" + anyo + ", ubicacion="

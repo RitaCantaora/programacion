@@ -12,7 +12,7 @@ public class Museo {
 	
 	
 	
-	
+	//getters y setters
 	
 	public String getNombre() {
 		return nombre;
@@ -45,6 +45,7 @@ public class Museo {
 		this.itinerante = itinerante;
 	}
 	
+	//to string
 	
 	@Override
 	public String toString() {

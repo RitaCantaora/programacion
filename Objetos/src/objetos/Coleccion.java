@@ -17,7 +17,7 @@ public class Coleccion {
 	private ObjetoArqueologico objeto10;
 	
 	
-	
+	//getters y setters
 	
 	
 	public String getTematica() {
@@ -43,6 +43,8 @@ public class Coleccion {
 		// TODO Auto-generated method stub
 		
 	}
+	
+	// to string 
 	
 	@Override
 	public String toString() {

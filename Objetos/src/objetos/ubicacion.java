@@ -7,7 +7,7 @@ public class ubicacion {
 	private	int piso;
 	
 	
-	
+	//getters y setters
 	
 	public int getSala() {
 		return sala;
@@ -22,7 +22,7 @@ public class ubicacion {
 		this.piso = piso;
 	}
 	
-	
+	//to string 
 	
 	@Override
 	public String toString() {
