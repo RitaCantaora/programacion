@@ -49,7 +49,7 @@ public class Museo {
 	
 	@Override
 	public String toString() {
-		return "Museo [nombre=" + nombre + ", ubicacion=" + ubicacion + ", tamanio=" + tamanyo + ", permanente="
+		return "Museo [nombre=" + nombre + ", ubicacion=" + ubicacion + ", tamanyo=" + tamanyo + ", permanente="
 				+ permanente + ", itinerante=" + itinerante + "]";
 	}
 	
