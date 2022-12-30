@@ -16,7 +16,8 @@ public class StarRobot {
 		
    System.out.println(azul.toString());
 	
-		
+	rojo.luchar(azul);	
+	azul.luchar(rojo);
 		
 	}
 
