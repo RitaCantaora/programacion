@@ -19,8 +19,6 @@ public class Robot {
 		this.puntos = 100;
 		GenerarAtaque();
 		GenerarDefensa();
-		
-		
 
 	}
 
@@ -28,51 +26,39 @@ public class Robot {
 
 	private void GenerarAtaque() {
 
-			Random r = new Random();
-			
-				this.ataque = r.nextInt(20);
+		Random r = new Random();
+
+		this.ataque = r.nextInt(20);
 	}
-				
+
 	private void GenerarDefensa() {
 
-					Random r = new Random();
-					
-						this.defensa = r.nextInt(100);
-						
-	}	
-	
-	
-	//metodo luchar
-	
-	public void luchar (Robot r2) {
-		
-		while(puntos>0 && r2.getPuntos()>0) {
-			
+		Random r = new Random();
+
+		this.defensa = r.nextInt(100);
+
+	}
+
+	// metodo luchar
+
+	public void luchar(Robot r2) {
+
+		while (puntos > 0 && r2.getPuntos() > 0) {
+
 			Random ataque = new Random();
 
-			puntos=ataque.nextInt(100);
-			
-			if(r2.getDefensa()<puntos) {
-				
-				r2.setPuntos(r2.getPuntos()-puntos);
+			puntos = ataque.nextInt(100);
+
+			if (r2.getDefensa() < puntos) {
+
+				r2.setPuntos(r2.getPuntos() - puntos);
 			}
-			
-			
+
 		}
-		
-		
-		
-		
-		
+
 	}
-	
-	
-	
-	
-	
-	
-		
-		//getters and setters
+
+	// getters and setters
 
 	public String getNombre() {
 		return nombre;
@@ -96,10 +82,10 @@ public class Robot {
 
 	public void setAtaque(int ataque) {
 
-		//if (ataque >= 0 && ataque <= 20) {
+		// if (ataque >= 0 && ataque <= 20) {
 
-			//this.ataque = ataque;
-	//	}
+		// this.ataque = ataque;
+		// }
 
 	}
 
