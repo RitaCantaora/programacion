@@ -33,7 +33,7 @@ public class StratUbicacion {
 	temporal.setEpoca("Edad Media");
 	temporal.setCiudad("Oviedo");
 			
-		
+	System.out.println(temporal.toString());	
 		
 
 	}
